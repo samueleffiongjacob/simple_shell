@@ -123,7 +123,7 @@ If a command is not found, the return status is `127`; if a command is found but
 
 All builtins return zero on success and one or two on incorrect usage (indicated by a corresponding error message).
 
-### Signals 
+### Signals
 
 While running in interactive mode, **hsh** ignores the keyboard input `Ctrl+c`. Alternatively, an input of end-of-file (`Ctrl+d`) will exit the program.
 
@@ -166,7 +166,7 @@ $ echo "echo $$" | ./hsh
 6494
 ```
 
-### Comments 
+### Comments
 
 **hsh** ignores all words and characters preceeded by a `#` character on a line.
 
@@ -320,5 +320,6 @@ $
 
 ## Authors ##
 
-👤 **[SAMUEL EFFIONG JACOB](https://github.com/samueleffiongjacob)**
+👤 **A group project of simple_shell done by [SAMUEL EFFIONG JACOB](https://github.com/samueleffiongjacob)
+and [ODUNLAMI HAFIS OLAWALE](https://github.com/ODUNS1)**
 
